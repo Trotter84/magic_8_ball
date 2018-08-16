@@ -1,6 +1,3 @@
-#user input
-#shuffle
-#eight answers
 module Questions
   def self.answers
     case 1 + rand(6)
