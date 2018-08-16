@@ -54,7 +54,6 @@ require 'colorize'
     puts "-" * 45
     exit
   end
-#end
 
 greeting
 

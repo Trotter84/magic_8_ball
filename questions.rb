@@ -1,20 +1,9 @@
 module Questions
   def self.answers
-    case 1 + rand(6)
-      when 1
-        puts "Without a doubt."
-      when 2
-        puts "Yes - definitely."
-      when 3
-        puts "Better not tell you now."
-      when 4
-        puts "Cannot predict now."
-      when 5
-        puts "My reply is no."
-      when 6
-        puts "As I see it, yes."
-      else
-        puts "Sorry not an answer."
-    end
+    @answer = [
+      "Without a doubt.","Yes - definitely.","Better not tell you now.",
+      "Cannot predict now.","My reply is no.","As I see it, yes."
+    ]
+    puts @answer.sample
   end
 end
